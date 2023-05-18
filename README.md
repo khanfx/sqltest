@@ -8,6 +8,23 @@ pip install mysql-stored-procedure-unit-testing-framework
 
 Code snippet
 
+## Test Case
+
+This database encapsulates a voter communication framework. Each member has a trust relationship with someone, ultimately forming a tree. When updating a trust relationship, the system updates the reach that each member has. 
+
+MemberTrustUpdate
+- name
+- trustsMemberNamed
+- operation: add / remove 
+- timestamp 
+
+MemberView 
+- name
+- reachCount
+- someDirectReports
+- firstAdded
+- lastUpdated
+
 ## Usage
 
 To use the framework, create a new Python file and import the framework:
